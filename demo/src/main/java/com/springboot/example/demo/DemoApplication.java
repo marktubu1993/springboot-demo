@@ -3,6 +3,9 @@ package com.springboot.example.demo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author mark-liu
+ */
 @SpringBootApplication
 public class DemoApplication {
 
