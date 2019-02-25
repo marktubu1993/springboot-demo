@@ -25,7 +25,7 @@ public class AsyncApplication extends AsyncConfigurerSupport {
         executor.setCorePoolSize(2);
         executor.setMaxPoolSize(2);
         executor.setQueueCapacity(500);
-        executor.setThreadNamePrefix("GithubLookup-");
+        executor.setThreadNamePrefix("TEST-");
         executor.initialize();
         return executor;
     }
